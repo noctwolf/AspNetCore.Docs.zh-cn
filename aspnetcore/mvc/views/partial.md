@@ -308,7 +308,7 @@ public IActionResult OnGetPartial() =>
 
 [!code-cshtml[](partial/sample/PartialViewsSample/Views/Articles/Read.cshtml?name=snippet_ReadPartialView&highlight=5,15-20)]
 
- Views/Shared/_AuthorPartial.cshtml 是  ReadRP.cshtml 标记文件引用的第一个分部视图：
+ Views/Shared/_AuthorPartial.cshtml 是  Read.cshtml 标记文件引用的第一个分部视图：
 
 [!code-cshtml[](partial/sample/PartialViewsSample/Views/Shared/_AuthorPartial.cshtml)]
 
