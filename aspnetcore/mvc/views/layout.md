@@ -67,7 +67,7 @@ Razor 视图具有 `Layout` 属性。 单个视图通过设置此属性来指定
 
 布局可以通过调用 `RenderSection` 来选择引用一个或多个节。 节提供一种方法来组织某些页面元素应当放置的位置。 每次调用 `RenderSection` 时都可指定该部分是必需还是可选：
 
-```html
+```cshtml
 @section Scripts {
     @RenderSection("Scripts", required: false)
 }
@@ -77,7 +77,7 @@ Razor 视图具有 `Layout` 属性。 单个视图通过设置此属性来指定
 
 Razor Pages 视图中的示例 `@section` 定义：
 
-```html
+```cshtml
 @section Scripts {
      <script type="text/javascript" src="/scripts/main.js"></script>
 }
@@ -87,7 +87,7 @@ Razor Pages 视图中的示例 `@section` 定义：
 
 以下标记使用[部分标记帮助程序](xref:mvc/views/tag-helpers/builtin-th/partial-tag-helper)来呈现  _ValidationScriptsPartial.cshtml：
 
-```html
+```cshtml
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
 }
