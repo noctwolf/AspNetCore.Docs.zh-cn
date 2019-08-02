@@ -640,11 +640,13 @@ HTTP POST `Index` 方法显示选定内容：
 
 添加 HTML [\<option>](https://www.w3.org/wiki/HTML/Elements/option) 元素并不局限于*无选定内容*用例。 例如，以下视图和操作方法会生成与上述代码类似的 HTML：
 
-[!code-csharp[](working-with-forms/sample/final/Controllers/HomeController.cs?range=114-119)]
+[!code-csharp[](working-with-forms/sample/final/Controllers/HomeController.cs?range=132-137)]
 
 [!code-HTML[](working-with-forms/sample/final/Views/Home/IndexOption.cshtml)]
 
 根据当前的 `Country` 值选择正确的 `<option>` 元素（包含 `selected="selected"` 属性）。
+
+[!code-csharp[](working-with-forms/sample/final/Controllers/HomeController.cs?range=114-119)]
 
 ```HTML
  <form method="post" action="/Home/IndexEmpty">
