@@ -37,7 +37,7 @@ ms.locfileid: "67815239"
 
 示例:
 
-[!code-HTML[](working-with-forms/sample/final/Views/Demo/RegisterFormOnly.cshtml)]
+[!code-CSHTML[](working-with-forms/sample/final/Views/Demo/RegisterFormOnly.cshtml)]
 
 上述表单标记帮助程序生成以下 HTML：
 
